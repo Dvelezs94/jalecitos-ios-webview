@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10866E41223D90B900F3EACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10866E40223D90B900F3EACC /* AppDelegate.swift */; };
+		10866E43223D90B900F3EACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10866E42223D90B900F3EACC /* ViewController.swift */; };
+		10866E46223D90B900F3EACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10866E44223D90B900F3EACC /* Main.storyboard */; };
+		10866E48223D90BB00F3EACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10866E47223D90BB00F3EACC /* Assets.xcassets */; };
+		10866E4B223D90BB00F3EACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10866E49223D90BB00F3EACC /* LaunchScreen.storyboard */; };
+		10866E56223D90BB00F3EACC /* Jalecitos_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10866E55223D90BB00F3EACC /* Jalecitos_iosTests.swift */; };
+		10866E61223D90BB00F3EACC /* Jalecitos_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10866E60223D90BB00F3EACC /* Jalecitos_iosUITests.swift */; };
+		62CDD5720F1259BC8339D3B6 /* Pods_Jalecitos_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D389769E9A9CF14EE8645ED /* Pods_Jalecitos_iosTests.framework */; };
+		A1D9F9C4CCD57F5D5C868740 /* Pods_Jalecitos_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B6A8F99FC565CEED27F065 /* Pods_Jalecitos_iosUITests.framework */; };
+		C0229410C17E22A437E5D81B /* Pods_Jalecitos_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32D63806565B576BA6CFC14 /* Pods_Jalecitos_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10866E52223D90BB00F3EACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10866E35223D90B800F3EACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10866E3C223D90B900F3EACC;
+			remoteInfo = "Jalecitos-ios";
+		};
+		10866E5D223D90BB00F3EACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10866E35223D90B800F3EACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10866E3C223D90B900F3EACC;
+			remoteInfo = "Jalecitos-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D389769E9A9CF14EE8645ED /* Pods_Jalecitos_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jalecitos_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10866E3D223D90B900F3EACC /* Jalecitos-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jalecitos-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10866E40223D90B900F3EACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10866E42223D90B900F3EACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10866E45223D90B900F3EACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10866E47223D90BB00F3EACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10866E4A223D90BB00F3EACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10866E4C223D90BB00F3EACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10866E51223D90BB00F3EACC /* Jalecitos-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jalecitos-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10866E55223D90BB00F3EACC /* Jalecitos_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jalecitos_iosTests.swift; sourceTree = "<group>"; };
+		10866E57223D90BB00F3EACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10866E5C223D90BB00F3EACC /* Jalecitos-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jalecitos-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10866E60223D90BB00F3EACC /* Jalecitos_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jalecitos_iosUITests.swift; sourceTree = "<group>"; };
+		10866E62223D90BB00F3EACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36792F580AFF0F5018E52E92 /* Pods-Jalecitos-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-iosTests.release.xcconfig"; path = "Target Support Files/Pods-Jalecitos-iosTests/Pods-Jalecitos-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		38C9E325AF9DD443FBC3FE50 /* Pods-Jalecitos-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-Jalecitos-iosTests/Pods-Jalecitos-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8145B1B04C3DC3E3A145EB /* Pods-Jalecitos-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-Jalecitos-iosUITests/Pods-Jalecitos-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FBB61D1AED92F8669A9DD5B /* Pods-Jalecitos-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-ios.release.xcconfig"; path = "Target Support Files/Pods-Jalecitos-ios/Pods-Jalecitos-ios.release.xcconfig"; sourceTree = "<group>"; };
+		7A7D4EB4042C221EC070E9F6 /* Pods-Jalecitos-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-ios.debug.xcconfig"; path = "Target Support Files/Pods-Jalecitos-ios/Pods-Jalecitos-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		B12CF0122240674A006D3AE9 /* Jalecitos-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Jalecitos-ios.entitlements"; sourceTree = "<group>"; };
+		B32D63806565B576BA6CFC14 /* Pods_Jalecitos_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jalecitos_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B6A8F99FC565CEED27F065 /* Pods_Jalecitos_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jalecitos_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AFFD5C382383EA984A12C3 /* Pods-Jalecitos-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Jalecitos-iosUITests/Pods-Jalecitos-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10866E3A223D90B900F3EACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0229410C17E22A437E5D81B /* Pods_Jalecitos_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10866E4E223D90BB00F3EACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CDD5720F1259BC8339D3B6 /* Pods_Jalecitos_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10866E59223D90BB00F3EACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D9F9C4CCD57F5D5C868740 /* Pods_Jalecitos_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10866E34223D90B800F3EACC = {
+			isa = PBXGroup;
+			children = (
+				10866E3F223D90B900F3EACC /* Jalecitos-ios */,
+				10866E54223D90BB00F3EACC /* Jalecitos-iosTests */,
+				10866E5F223D90BB00F3EACC /* Jalecitos-iosUITests */,
+				10866E3E223D90B900F3EACC /* Products */,
+				756923FEAFA90EC0B206378E /* Pods */,
+				5C74A08E4935A0E5C9C33381 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10866E3E223D90B900F3EACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10866E3D223D90B900F3EACC /* Jalecitos-ios.app */,
+				10866E51223D90BB00F3EACC /* Jalecitos-iosTests.xctest */,
+				10866E5C223D90BB00F3EACC /* Jalecitos-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10866E3F223D90B900F3EACC /* Jalecitos-ios */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF0122240674A006D3AE9 /* Jalecitos-ios.entitlements */,
+				10866E40223D90B900F3EACC /* AppDelegate.swift */,
+				10866E42223D90B900F3EACC /* ViewController.swift */,
+				10866E44223D90B900F3EACC /* Main.storyboard */,
+				10866E47223D90BB00F3EACC /* Assets.xcassets */,
+				10866E49223D90BB00F3EACC /* LaunchScreen.storyboard */,
+				10866E4C223D90BB00F3EACC /* Info.plist */,
+			);
+			path = "Jalecitos-ios";
+			sourceTree = "<group>";
+		};
+		10866E54223D90BB00F3EACC /* Jalecitos-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				10866E55223D90BB00F3EACC /* Jalecitos_iosTests.swift */,
+				10866E57223D90BB00F3EACC /* Info.plist */,
+			);
+			path = "Jalecitos-iosTests";
+			sourceTree = "<group>";
+		};
+		10866E5F223D90BB00F3EACC /* Jalecitos-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10866E60223D90BB00F3EACC /* Jalecitos_iosUITests.swift */,
+				10866E62223D90BB00F3EACC /* Info.plist */,
+			);
+			path = "Jalecitos-iosUITests";
+			sourceTree = "<group>";
+		};
+		5C74A08E4935A0E5C9C33381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32D63806565B576BA6CFC14 /* Pods_Jalecitos_ios.framework */,
+				0D389769E9A9CF14EE8645ED /* Pods_Jalecitos_iosTests.framework */,
+				D5B6A8F99FC565CEED27F065 /* Pods_Jalecitos_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756923FEAFA90EC0B206378E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A7D4EB4042C221EC070E9F6 /* Pods-Jalecitos-ios.debug.xcconfig */,
+				5FBB61D1AED92F8669A9DD5B /* Pods-Jalecitos-ios.release.xcconfig */,
+				38C9E325AF9DD443FBC3FE50 /* Pods-Jalecitos-iosTests.debug.xcconfig */,
+				36792F580AFF0F5018E52E92 /* Pods-Jalecitos-iosTests.release.xcconfig */,
+				E2AFFD5C382383EA984A12C3 /* Pods-Jalecitos-iosUITests.debug.xcconfig */,
+				3F8145B1B04C3DC3E3A145EB /* Pods-Jalecitos-iosUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10866E3C223D90B900F3EACC /* Jalecitos-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10866E65223D90BB00F3EACC /* Build configuration list for PBXNativeTarget "Jalecitos-ios" */;
+			buildPhases = (
+				E8E31148FC7E5C7C97249B13 /* [CP] Check Pods Manifest.lock */,
+				10866E39223D90B900F3EACC /* Sources */,
+				10866E3A223D90B900F3EACC /* Frameworks */,
+				10866E3B223D90B900F3EACC /* Resources */,
+				3868E2AE0F7C9FAAD1424BB6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jalecitos-ios";
+			productName = "Jalecitos-ios";
+			productReference = 10866E3D223D90B900F3EACC /* Jalecitos-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10866E50223D90BB00F3EACC /* Jalecitos-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10866E68223D90BB00F3EACC /* Build configuration list for PBXNativeTarget "Jalecitos-iosTests" */;
+			buildPhases = (
+				DF89EC81BB6E70AAAC21261B /* [CP] Check Pods Manifest.lock */,
+				10866E4D223D90BB00F3EACC /* Sources */,
+				10866E4E223D90BB00F3EACC /* Frameworks */,
+				10866E4F223D90BB00F3EACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10866E53223D90BB00F3EACC /* PBXTargetDependency */,
+			);
+			name = "Jalecitos-iosTests";
+			productName = "Jalecitos-iosTests";
+			productReference = 10866E51223D90BB00F3EACC /* Jalecitos-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10866E5B223D90BB00F3EACC /* Jalecitos-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10866E6B223D90BB00F3EACC /* Build configuration list for PBXNativeTarget "Jalecitos-iosUITests" */;
+			buildPhases = (
+				D26E2C872C3E0F02BEB01CFC /* [CP] Check Pods Manifest.lock */,
+				10866E58223D90BB00F3EACC /* Sources */,
+				10866E59223D90BB00F3EACC /* Frameworks */,
+				10866E5A223D90BB00F3EACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10866E5E223D90BB00F3EACC /* PBXTargetDependency */,
+			);
+			name = "Jalecitos-iosUITests";
+			productName = "Jalecitos-iosUITests";
+			productReference = 10866E5C223D90BB00F3EACC /* Jalecitos-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10866E35223D90B800F3EACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Diego Alberto Velez Sanchez";
+				TargetAttributes = {
+					10866E3C223D90B900F3EACC = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					10866E50223D90BB00F3EACC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 10866E3C223D90B900F3EACC;
+					};
+					10866E5B223D90BB00F3EACC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 10866E3C223D90B900F3EACC;
+					};
+				};
+			};
+			buildConfigurationList = 10866E38223D90B800F3EACC /* Build configuration list for PBXProject "Jalecitos-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10866E34223D90B800F3EACC;
+			productRefGroup = 10866E3E223D90B900F3EACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10866E3C223D90B900F3EACC /* Jalecitos-ios */,
+				10866E50223D90BB00F3EACC /* Jalecitos-iosTests */,
+				10866E5B223D90BB00F3EACC /* Jalecitos-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10866E3B223D90B900F3EACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10866E4B223D90BB00F3EACC /* LaunchScreen.storyboard in Resources */,
+				10866E48223D90BB00F3EACC /* Assets.xcassets in Resources */,
+				10866E46223D90B900F3EACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10866E4F223D90BB00F3EACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10866E5A223D90BB00F3EACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3868E2AE0F7C9FAAD1424BB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jalecitos-ios/Pods-Jalecitos-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jalecitos-ios/Pods-Jalecitos-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26E2C872C3E0F02BEB01CFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jalecitos-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF89EC81BB6E70AAAC21261B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jalecitos-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E31148FC7E5C7C97249B13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jalecitos-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10866E39223D90B900F3EACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10866E43223D90B900F3EACC /* ViewController.swift in Sources */,
+				10866E41223D90B900F3EACC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10866E4D223D90BB00F3EACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10866E56223D90BB00F3EACC /* Jalecitos_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10866E58223D90BB00F3EACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10866E61223D90BB00F3EACC /* Jalecitos_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10866E53223D90BB00F3EACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10866E3C223D90B900F3EACC /* Jalecitos-ios */;
+			targetProxy = 10866E52223D90BB00F3EACC /* PBXContainerItemProxy */;
+		};
+		10866E5E223D90BB00F3EACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10866E3C223D90B900F3EACC /* Jalecitos-ios */;
+			targetProxy = 10866E5D223D90BB00F3EACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10866E44223D90B900F3EACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10866E45223D90B900F3EACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10866E49223D90BB00F3EACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10866E4A223D90BB00F3EACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10866E63223D90BB00F3EACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10866E64223D90BB00F3EACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10866E66223D90BB00F3EACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7D4EB4042C221EC070E9F6 /* Pods-Jalecitos-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Jalecitos-ios/Jalecitos-ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D2M544Q58;
+				INFOPLIST_FILE = "Jalecitos-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalecitos.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10866E67223D90BB00F3EACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBB61D1AED92F8669A9DD5B /* Pods-Jalecitos-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Jalecitos-ios/Jalecitos-ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D2M544Q58;
+				INFOPLIST_FILE = "Jalecitos-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalecitos.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10866E69223D90BB00F3EACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C9E325AF9DD443FBC3FE50 /* Pods-Jalecitos-iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jalecitos-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-iphone.Jalecitos-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jalecitos-ios.app/Jalecitos-ios";
+			};
+			name = Debug;
+		};
+		10866E6A223D90BB00F3EACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36792F580AFF0F5018E52E92 /* Pods-Jalecitos-iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jalecitos-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-iphone.Jalecitos-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jalecitos-ios.app/Jalecitos-ios";
+			};
+			name = Release;
+		};
+		10866E6C223D90BB00F3EACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AFFD5C382383EA984A12C3 /* Pods-Jalecitos-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jalecitos-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-iphone.Jalecitos-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jalecitos-ios";
+			};
+			name = Debug;
+		};
+		10866E6D223D90BB00F3EACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8145B1B04C3DC3E3A145EB /* Pods-Jalecitos-iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jalecitos-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-iphone.Jalecitos-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jalecitos-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10866E38223D90B800F3EACC /* Build configuration list for PBXProject "Jalecitos-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10866E63223D90BB00F3EACC /* Debug */,
+				10866E64223D90BB00F3EACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10866E65223D90BB00F3EACC /* Build configuration list for PBXNativeTarget "Jalecitos-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10866E66223D90BB00F3EACC /* Debug */,
+				10866E67223D90BB00F3EACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10866E68223D90BB00F3EACC /* Build configuration list for PBXNativeTarget "Jalecitos-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10866E69223D90BB00F3EACC /* Debug */,
+				10866E6A223D90BB00F3EACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10866E6B223D90BB00F3EACC /* Build configuration list for PBXNativeTarget "Jalecitos-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10866E6C223D90BB00F3EACC /* Debug */,
+				10866E6D223D90BB00F3EACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10866E35223D90B800F3EACC /* Project object */;
+}

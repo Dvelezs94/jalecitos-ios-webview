@@ -1,0 +1,6 @@
+framework module Pods_Jalecitos_iosUITests {
+  umbrella header "Pods-Jalecitos-iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
