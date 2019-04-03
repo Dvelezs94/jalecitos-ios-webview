@@ -14,6 +14,7 @@
 		10866E4B223D90BB00F3EACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10866E49223D90BB00F3EACC /* LaunchScreen.storyboard */; };
 		10866E56223D90BB00F3EACC /* Jalecitos_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10866E55223D90BB00F3EACC /* Jalecitos_iosTests.swift */; };
 		10866E61223D90BB00F3EACC /* Jalecitos_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10866E60223D90BB00F3EACC /* Jalecitos_iosUITests.swift */; };
+		1874EB40225492B200AFD4B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1874EB3F225492B200AFD4B4 /* GoogleService-Info.plist */; };
 		62CDD5720F1259BC8339D3B6 /* Pods_Jalecitos_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D389769E9A9CF14EE8645ED /* Pods_Jalecitos_iosTests.framework */; };
 		A1D9F9C4CCD57F5D5C868740 /* Pods_Jalecitos_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B6A8F99FC565CEED27F065 /* Pods_Jalecitos_iosUITests.framework */; };
 		C0229410C17E22A437E5D81B /* Pods_Jalecitos_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32D63806565B576BA6CFC14 /* Pods_Jalecitos_ios.framework */; };
@@ -51,6 +52,7 @@
 		10866E5C223D90BB00F3EACC /* Jalecitos-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jalecitos-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10866E60223D90BB00F3EACC /* Jalecitos_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jalecitos_iosUITests.swift; sourceTree = "<group>"; };
 		10866E62223D90BB00F3EACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874EB3F225492B200AFD4B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36792F580AFF0F5018E52E92 /* Pods-Jalecitos-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-iosTests.release.xcconfig"; path = "Target Support Files/Pods-Jalecitos-iosTests/Pods-Jalecitos-iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		38C9E325AF9DD443FBC3FE50 /* Pods-Jalecitos-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-Jalecitos-iosTests/Pods-Jalecitos-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F8145B1B04C3DC3E3A145EB /* Pods-Jalecitos-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalecitos-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-Jalecitos-iosUITests/Pods-Jalecitos-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				10866E47223D90BB00F3EACC /* Assets.xcassets */,
 				10866E49223D90BB00F3EACC /* LaunchScreen.storyboard */,
 				10866E4C223D90BB00F3EACC /* Info.plist */,
+				1874EB3F225492B200AFD4B4 /* GoogleService-Info.plist */,
 			);
 			path = "Jalecitos-ios";
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10866E4B223D90BB00F3EACC /* LaunchScreen.storyboard in Resources */,
+				1874EB40225492B200AFD4B4 /* GoogleService-Info.plist in Resources */,
 				10866E48223D90BB00F3EACC /* Assets.xcassets in Resources */,
 				10866E46223D90B900F3EACC /* Main.storyboard in Resources */,
 			);
