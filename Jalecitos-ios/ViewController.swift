@@ -43,8 +43,13 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     @objc func saveFCMTokenAsCookie(_ notification: Notification){
         
         if let fcmToken = notification.userInfo?["token"] as? String{
-            guard let fcmCookie = HTTPCookie(properties: [.domain:"https://www.jalecitos.com/",.path:"/", .name : "Fcm Token",.value:fcmToken,.secure: "TRUE",.expires: NSDate(timeIntervalSinceNow: 31556926)]) else{ return}
+            guard let fcmCookie = HTTPCookie(properties: [.domain:".jalecitos.com",.path:"/", .name : "FcmToken",.value:fcmToken,.secure: "FALSE",.expires: NSDate(timeIntervalSinceNow: 31556926)]) else{ return}
             webView.configuration.websiteDataStore.httpCookieStore.setCookie(fcmCookie)
+        }
+        WKWebsiteDataStore.default().httpCookieStore.getAllCookies { (CookieArr) in
+            for cookie in CookieArr{
+                print(cookie)
+            }
         }
     }
     
