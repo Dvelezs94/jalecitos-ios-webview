@@ -23,11 +23,35 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     
     override func viewDidLoad() {
         
+        
         let url = URL(string: "https://www.jalecitos.com/mobile_sign_up")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
+        
+        
+        
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        NotificationCenter.default.addObserver(self, selector: #selector(saveFCMTokenAsCookie(_:)), name: Notification.Name("FCMToken"), object: nil)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self, name: Notification.Name("FCMToken"), object: nil)
+    }
+    
+    @objc func saveFCMTokenAsCookie(_ notification: Notification){
+        
+        if let fcmToken = notification.userInfo?["token"] as? String{
+            guard let fcmCookie = HTTPCookie(properties: [.domain:".jalecitos.com",.path:"/", .name : "FcmToken",.value:fcmToken,.secure: "FALSE",.expires: NSDate(timeIntervalSinceNow: 31556926)]) else{ return}
+            webView.configuration.websiteDataStore.httpCookieStore.setCookie(fcmCookie)
+        }
+        WKWebsiteDataStore.default().httpCookieStore.getAllCookies { (CookieArr) in
+            for cookie in CookieArr{
+                print(cookie)
+            }
+        }
+    }
     
     func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping () -> Void) {
         
@@ -80,7 +104,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         
         self.present(alertController, animated: true, completion: nil)
     }
-
+    
 }
 
 extension ViewController: UIScrollViewDelegate {
